@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyPBCKiLPEkycZoQPBUAp/AAAAAACAAAAAAAQZgAAAAEAACAAAACyDCP4c/zCzvotYuLLRGtAZZeyG+TS+b2hLUuToECd9gAAAAAOgAAAAAIAACAAAABgiW03NEjHE7vqrBCVei3geLeR5htzioh/c+0VroSebSAAAADQbhYMvsDxJn291wRJcXM3IUp/SbT/xpHAZECM0DceKkAAAACCeMc9ge1BDX9tZ8XTLQ5TJvUQMLENnNTZ07YJ/Kw8wvKsd1NC5GRZRioHKGPJxFvMWTt3+Qr7IXtvOJEuBpS+</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="autoload.php">
+      <publishTime>10/22/2015 21:55:57</publishTime>
+    </File>
+    <File Include="avci/resume.php">
+      <publishTime>08/10/2016 00:29:27</publishTime>
+    </File>
+    <File Include="Contacts-d260eb0b1145.p12">
+      <publishTime>10/22/2015 22:05:11</publishTime>
+    </File>
+    <File Include="examples/appengineauth.php">
+      <publishTime>10/22/2015 21:55:57</publishTime>
+    </File>
+    <File Include="examples/batch.php">
+      <publishTime>10/22/2015 21:55:57</publishTime>
+    </File>
+    <File Include="examples/fileupload.php">
+      <publishTime>10/22/2015 21:55:57</publishTime>
+    </File>
+    <File Include="examples/idtoken.php">
+      <publishTime>10/22/2015 21:55:57</publishTime>
+    </File>
+    <File Include="examples/index.php">
+      <publishTime>10/22/2015 21:55:57</publishTime>
+    </File>
+    <File Include="examples/multi-api.php">
+      <publishTime>10/22/2015 21:55:57</publishTime>
+    </File>
+    <File Include="examples/simple-query.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="examples/simplefileupload.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="examples/styles/style.css">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="examples/templates/base.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="examples/user-example.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="huron-county/community.php">
+      <publishTime>01/17/2017 01:04:54</publishTime>
+    </File>
+    <File Include="huron-county/Contacts-d260eb0b1145.p12">
+      <publishTime>10/22/2015 22:05:11</publishTime>
+    </File>
+    <File Include="index.php">
+      <publishTime>08/29/2017 00:32:36</publishTime>
+    </File>
+    <File Include="pacc/contacts/index.php">
+      <publishTime>08/29/2017 01:34:25</publishTime>
+    </File>
+    <File Include="pacc/GoogleApis-1f272bcc620a.p12">
+      <publishTime>08/25/2017 00:21:56</publishTime>
+    </File>
+    <File Include="PHPMailer.php">
+      <publishTime>01/31/2016 23:32:50</publishTime>
+    </File>
+    <File Include="phpunit.xml.dist">
+      <publishTime>10/22/2015 21:55:57</publishTime>
+    </File>
+    <File Include="src/Google/Auth/Abstract.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Auth/AppIdentity.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Auth/AssertionCredentials.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Auth/ComputeEngine.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Auth/Exception.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Auth/LoginTicket.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Auth/OAuth2.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Auth/Simple.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/autoload.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Cache/Abstract.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Cache/Apc.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Cache/Exception.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Cache/File.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Cache/Memcache.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Cache/Null.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Client.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Collection.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Config.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Exception.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Http/Batch.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Http/CacheParser.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Http/MediaFileUpload.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Http/Request.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Http/REST.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/IO/Abstract.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/IO/cacerts.pem">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/IO/Curl.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/IO/Exception.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/IO/Stream.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Logger/Abstract.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Logger/Exception.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Logger/File.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Logger/Null.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Logger/Psr.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Model.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Service.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Service/AdExchangeBuyer.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/AdExchangeSeller.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/Admin.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/AdSense.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/AdSenseHost.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/Analytics.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/AndroidEnterprise.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/AndroidPublisher.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/Appengine.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/Appsactivity.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/AppState.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/Audit.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/Autoscaler.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/Bigquery.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/Blogger.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/Books.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/Calendar.php">
+      <publishTime>10/22/2015 21:55:59</publishTime>
+    </File>
+    <File Include="src/Google/Service/CivicInfo.php">
+      <publishTime>10/22/2015 21:56:00</publishTime>
+    </File>
+    <File Include="src/Google/Service/Classroom.php">
+      <publishTime>10/22/2015 21:56:00</publishTime>
+    </File>
+    <File Include="src/Google/Service/Cloudbilling.php">
+      <publishTime>10/22/2015 21:56:00</publishTime>
+    </File>
+    <File Include="src/Google/Service/Clouddebugger.php">
+      <publishTime>10/22/2015 21:56:00</publishTime>
+    </File>
+    <File Include="src/Google/Service/Cloudlatencytest.php">
+      <publishTime>10/22/2015 21:56:00</publishTime>
+    </File>
+    <File Include="src/Google/Service/CloudMonitoring.php">
+      <publishTime>10/22/2015 21:56:00</publishTime>
+    </File>
+    <File Include="src/Google/Service/Cloudresourcemanager.php">
+      <publishTime>10/22/2015 21:56:00</publishTime>
+    </File>
+    <File Include="src/Google/Service/Cloudsearch.php">
+      <publishTime>10/22/2015 21:56:00</publishTime>
+    </File>
+    <File Include="src/Google/Service/Cloudtrace.php">
+      <publishTime>10/22/2015 21:56:00</publishTime>
+    </File>
+    <File Include="src/Google/Service/CloudUserAccounts.php">
+      <publishTime>10/22/2015 21:56:00</publishTime>
+    </File>
+    <File Include="src/Google/Service/Compute.php">
+      <publishTime>10/22/2015 21:56:01</publishTime>
+    </File>
+    <File Include="src/Google/Service/Computeaccounts.php">
+      <publishTime>10/22/2015 21:56:01</publishTime>
+    </File>
+    <File Include="src/Google/Service/Container.php">
+      <publishTime>10/22/2015 21:56:01</publishTime>
+    </File>
+    <File Include="src/Google/Service/Coordinate.php">
+      <publishTime>10/22/2015 21:56:01</publishTime>
+    </File>
+    <File Include="src/Google/Service/Customsearch.php">
+      <publishTime>10/22/2015 21:56:01</publishTime>
+    </File>
+    <File Include="src/Google/Service/Dataflow.php">
+      <publishTime>10/22/2015 21:56:01</publishTime>
+    </File>
+    <File Include="src/Google/Service/Datastore.php">
+      <publishTime>10/22/2015 21:56:01</publishTime>
+    </File>
+    <File Include="src/Google/Service/DataTransfer.php">
+      <publishTime>10/22/2015 21:56:01</publishTime>
+    </File>
+    <File Include="src/Google/Service/DeploymentManager.php">
+      <publishTime>10/22/2015 21:56:01</publishTime>
+    </File>
+    <File Include="src/Google/Service/Dfareporting.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Directory.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Dns.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/DoubleClickBidManager.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Doubleclicksearch.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Drive.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Exception.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Fitness.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Freebase.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Fusiontables.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Games.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/GamesConfiguration.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/GamesManagement.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Genomics.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Gmail.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/GroupsMigration.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Groupssettings.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/IdentityToolkit.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Licensing.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Logging.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/Manager.php">
+      <publishTime>10/22/2015 21:56:02</publishTime>
+    </File>
+    <File Include="src/Google/Service/MapsEngine.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Mirror.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Oauth2.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Pagespeedonline.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Partners.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Playmoviespartner.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Plus.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/PlusDomains.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Prediction.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Proximitybeacon.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Pubsub.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/QPXExpress.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Replicapool.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Replicapoolupdater.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Reports.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Reseller.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Resource.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Resourceviews.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Script.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/ShoppingContent.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Service/SiteVerification.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Service/Spectrum.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Service/SQLAdmin.php">
+      <publishTime>10/22/2015 21:56:03</publishTime>
+    </File>
+    <File Include="src/Google/Service/Storage.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Service/Storagetransfer.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Service/TagManager.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Service/Taskqueue.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Service/Tasks.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Service/Translate.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Service/Urlshortener.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Service/Webfonts.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Service/Webmasters.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Service/YouTube.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Service/YouTubeAnalytics.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Service/YouTubeReporting.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Signer/Abstract.php">
+      <publishTime>10/22/2015 21:56:04</publishTime>
+    </File>
+    <File Include="src/Google/Signer/P12.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="src/Google/Task/Exception.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="src/Google/Task/Retryable.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="src/Google/Task/Runner.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="src/Google/Utils.php">
+      <publishTime>10/22/2015 21:55:58</publishTime>
+    </File>
+    <File Include="src/Google/Utils/URITemplate.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="src/Google/Verifier/Abstract.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="src/Google/Verifier/Pem.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="style/ruleset.xml">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tec/app.js">
+      <publishTime>08/21/2017 22:38:06</publishTime>
+    </File>
+    <File Include="tec/clilent_id.json">
+      <publishTime>08/14/2017 22:32:35</publishTime>
+    </File>
+    <File Include="tec/index.php">
+      <publishTime>08/16/2017 22:00:19</publishTime>
+    </File>
+    <File Include="tec/insert_events.php">
+      <publishTime>08/21/2017 22:42:24</publishTime>
+    </File>
+    <File Include="tec/oauth_callback_google.php">
+      <publishTime>08/21/2017 22:45:37</publishTime>
+    </File>
+    <File Include="tec/oauth_config.php">
+      <publishTime>08/16/2017 01:05:49</publishTime>
+    </File>
+    <File Include="tests/adsense/AdSenseTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/BaseTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/bootstrap.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/ApiBatchRequestTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/ApiCacheParserTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/ApiClientTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/ApiMediaFileUploadTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/ApiModelTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/ApiOAuth2Test.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/AuthTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/CacheTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/ComputeEngineAuthTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/Http/BatchTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/Http/RequestTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/IoTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/LoggerTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/RequestTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/ResourceTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/RestTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/ServiceTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/TaskTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/testdata/cacert.json">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/testdata/cacert.pem">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/testdata/cert.p12">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/testdata/privkey.pem">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/testdata/service-12345.json">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/testdata/service-rsa-12345.json">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/testdata/test.ini">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/testdata/test_public_key.pem">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/general/URITemplateTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/OAuthHelper.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/pagespeed/PageSpeedTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/plus/PlusTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/README">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/tasks/TasksTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/urlshortener/UrlShortenerTests.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+    <File Include="tests/youtube/YouTubeTest.php">
+      <publishTime>10/22/2015 21:56:05</publishTime>
+    </File>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src" />
+  </ItemGroup>
+</Project>

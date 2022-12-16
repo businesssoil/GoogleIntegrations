@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Contacts</Name>
+    <ProjectGuid>3709a668-e1e4-49bb-8925-1ac726af2000</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Contacts</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>Contacts</AssemblyName>
+    <SpecificPageValue>tec/get_events.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+    <SaveServerSettingsInUserFile>false</SaveServerSettingsInUserFile>
+    <Runtime>PHP</Runtime>
+    <RuntimeVersion>5.6</RuntimeVersion>
+    <EnvName>PHPDev</EnvName>
+    <PHPDevHostName>localhost</PHPDevHostName>
+    <PHPDevAutoPort>false</PHPDevAutoPort>
+    <PHPDevPort>9000</PHPDevPort>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="autoload.php" />
+    <Compile Include="avci\resume.php" />
+    <Compile Include="huron-county\community.php" />
+    <Compile Include="index.php" />
+    <Compile Include="pacc\contacts\index.php" />
+    <Compile Include="tec\get_events.php" />
+    <Compile Include="tec\index.php" />
+    <Compile Include="tec\insert_anniversaries.php" />
+    <Compile Include="tec\insert_vacation.php" />
+    <Compile Include="tec\oauth_callback_google.php" />
+    <Compile Include="tec\oauth_config.php" />
+    <Compile Include="src\Google\Auth\Abstract.php" />
+    <Compile Include="src\Google\Auth\AppIdentity.php" />
+    <Compile Include="src\Google\Auth\AssertionCredentials.php" />
+    <Compile Include="src\Google\Auth\ComputeEngine.php" />
+    <Compile Include="src\Google\Auth\Exception.php" />
+    <Compile Include="src\Google\Auth\LoginTicket.php" />
+    <Compile Include="src\Google\Auth\OAuth2.php" />
+    <Compile Include="src\Google\Auth\Simple.php" />
+    <Compile Include="src\Google\autoload.php" />
+    <Compile Include="src\Google\Cache\Abstract.php" />
+    <Compile Include="src\Google\Cache\Apc.php" />
+    <Compile Include="src\Google\Cache\Exception.php" />
+    <Compile Include="src\Google\Cache\File.php" />
+    <Compile Include="src\Google\Cache\Memcache.php" />
+    <Compile Include="src\Google\Cache\Null.php" />
+    <Compile Include="src\Google\Client.php" />
+    <Compile Include="src\Google\Collection.php" />
+    <Compile Include="src\Google\Config.php" />
+    <Compile Include="src\Google\Exception.php" />
+    <Compile Include="src\Google\Http\Batch.php" />
+    <Compile Include="src\Google\Http\CacheParser.php" />
+    <Compile Include="src\Google\Http\MediaFileUpload.php" />
+    <Compile Include="src\Google\Http\Request.php" />
+    <Compile Include="src\Google\Http\REST.php" />
+    <Compile Include="src\Google\IO\Abstract.php" />
+    <Compile Include="src\Google\IO\Curl.php" />
+    <Compile Include="src\Google\IO\Exception.php" />
+    <Compile Include="src\Google\IO\Stream.php" />
+    <Compile Include="src\Google\Logger\Abstract.php" />
+    <Compile Include="src\Google\Logger\Exception.php" />
+    <Compile Include="src\Google\Logger\File.php" />
+    <Compile Include="src\Google\Logger\Null.php" />
+    <Compile Include="src\Google\Logger\Psr.php" />
+    <Compile Include="src\Google\Model.php" />
+    <Compile Include="src\Google\Service.php" />
+    <Compile Include="src\Google\Service\AdExchangeBuyer.php" />
+    <Compile Include="src\Google\Service\AdExchangeSeller.php" />
+    <Compile Include="src\Google\Service\Admin.php" />
+    <Compile Include="src\Google\Service\AdSense.php" />
+    <Compile Include="src\Google\Service\AdSenseHost.php" />
+    <Compile Include="src\Google\Service\Analytics.php" />
+    <Compile Include="src\Google\Service\AndroidEnterprise.php" />
+    <Compile Include="src\Google\Service\AndroidPublisher.php" />
+    <Compile Include="src\Google\Service\Appengine.php" />
+    <Compile Include="src\Google\Service\Appsactivity.php" />
+    <Compile Include="src\Google\Service\AppState.php" />
+    <Compile Include="src\Google\Service\Audit.php" />
+    <Compile Include="src\Google\Service\Autoscaler.php" />
+    <Compile Include="src\Google\Service\Bigquery.php" />
+    <Compile Include="src\Google\Service\Blogger.php" />
+    <Compile Include="src\Google\Service\Books.php" />
+    <Compile Include="src\Google\Service\Calendar.php" />
+    <Compile Include="src\Google\Service\CivicInfo.php" />
+    <Compile Include="src\Google\Service\Classroom.php" />
+    <Compile Include="src\Google\Service\Cloudbilling.php" />
+    <Compile Include="src\Google\Service\Clouddebugger.php" />
+    <Compile Include="src\Google\Service\Cloudlatencytest.php" />
+    <Compile Include="src\Google\Service\CloudMonitoring.php" />
+    <Compile Include="src\Google\Service\Cloudresourcemanager.php" />
+    <Compile Include="src\Google\Service\Cloudsearch.php" />
+    <Compile Include="src\Google\Service\Cloudtrace.php" />
+    <Compile Include="src\Google\Service\CloudUserAccounts.php" />
+    <Compile Include="src\Google\Service\Compute.php" />
+    <Compile Include="src\Google\Service\Computeaccounts.php" />
+    <Compile Include="src\Google\Service\Container.php" />
+    <Compile Include="src\Google\Service\Coordinate.php" />
+    <Compile Include="src\Google\Service\Customsearch.php" />
+    <Compile Include="src\Google\Service\Dataflow.php" />
+    <Compile Include="src\Google\Service\Datastore.php" />
+    <Compile Include="src\Google\Service\DataTransfer.php" />
+    <Compile Include="src\Google\Service\DeploymentManager.php" />
+    <Compile Include="src\Google\Service\Dfareporting.php" />
+    <Compile Include="src\Google\Service\Directory.php" />
+    <Compile Include="src\Google\Service\Dns.php" />
+    <Compile Include="src\Google\Service\DoubleClickBidManager.php" />
+    <Compile Include="src\Google\Service\Doubleclicksearch.php" />
+    <Compile Include="src\Google\Service\Drive.php" />
+    <Compile Include="src\Google\Service\Exception.php" />
+    <Compile Include="src\Google\Service\Fitness.php" />
+    <Compile Include="src\Google\Service\Freebase.php" />
+    <Compile Include="src\Google\Service\Fusiontables.php" />
+    <Compile Include="src\Google\Service\Games.php" />
+    <Compile Include="src\Google\Service\GamesConfiguration.php" />
+    <Compile Include="src\Google\Service\GamesManagement.php" />
+    <Compile Include="src\Google\Service\Genomics.php" />
+    <Compile Include="src\Google\Service\Gmail.php" />
+    <Compile Include="src\Google\Service\GroupsMigration.php" />
+    <Compile Include="src\Google\Service\Groupssettings.php" />
+    <Compile Include="src\Google\Service\IdentityToolkit.php" />
+    <Compile Include="src\Google\Service\Licensing.php" />
+    <Compile Include="src\Google\Service\Logging.php" />
+    <Compile Include="src\Google\Service\Manager.php" />
+    <Compile Include="src\Google\Service\MapsEngine.php" />
+    <Compile Include="src\Google\Service\Mirror.php" />
+    <Compile Include="src\Google\Service\Oauth2.php" />
+    <Compile Include="src\Google\Service\Pagespeedonline.php" />
+    <Compile Include="src\Google\Service\Partners.php" />
+    <Compile Include="src\Google\Service\Playmoviespartner.php" />
+    <Compile Include="src\Google\Service\Plus.php" />
+    <Compile Include="src\Google\Service\PlusDomains.php" />
+    <Compile Include="src\Google\Service\Prediction.php" />
+    <Compile Include="src\Google\Service\Proximitybeacon.php" />
+    <Compile Include="src\Google\Service\Pubsub.php" />
+    <Compile Include="src\Google\Service\QPXExpress.php" />
+    <Compile Include="src\Google\Service\Replicapool.php" />
+    <Compile Include="src\Google\Service\Replicapoolupdater.php" />
+    <Compile Include="src\Google\Service\Reports.php" />
+    <Compile Include="src\Google\Service\Reseller.php" />
+    <Compile Include="src\Google\Service\Resource.php" />
+    <Compile Include="src\Google\Service\Resourceviews.php" />
+    <Compile Include="src\Google\Service\Script.php" />
+    <Compile Include="src\Google\Service\ShoppingContent.php" />
+    <Compile Include="src\Google\Service\SiteVerification.php" />
+    <Compile Include="src\Google\Service\Spectrum.php" />
+    <Compile Include="src\Google\Service\SQLAdmin.php" />
+    <Compile Include="src\Google\Service\Storage.php" />
+    <Compile Include="src\Google\Service\Storagetransfer.php" />
+    <Compile Include="src\Google\Service\TagManager.php" />
+    <Compile Include="src\Google\Service\Taskqueue.php" />
+    <Compile Include="src\Google\Service\Tasks.php" />
+    <Compile Include="src\Google\Service\Translate.php" />
+    <Compile Include="src\Google\Service\Urlshortener.php" />
+    <Compile Include="src\Google\Service\Webfonts.php" />
+    <Compile Include="src\Google\Service\Webmasters.php" />
+    <Compile Include="src\Google\Service\YouTube.php" />
+    <Compile Include="src\Google\Service\YouTubeAnalytics.php" />
+    <Compile Include="src\Google\Service\YouTubeReporting.php" />
+    <Compile Include="src\Google\Signer\Abstract.php" />
+    <Compile Include="src\Google\Signer\P12.php" />
+    <Compile Include="src\Google\Task\Exception.php" />
+    <Compile Include="src\Google\Task\Retryable.php" />
+    <Compile Include="src\Google\Task\Runner.php" />
+    <Compile Include="src\Google\Utils.php" />
+    <Compile Include="src\Google\Utils\URITemplate.php" />
+    <Compile Include="src\Google\Verifier\Abstract.php" />
+    <Compile Include="src\Google\Verifier\Pem.php" />
+    <Compile Include="PHPMailer.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="avci\" />
+    <Folder Include="huron-county\" />
+    <Folder Include="pacc\" />
+    <Folder Include="pacc\contacts\" />
+    <Folder Include="tec\" />
+    <Folder Include="src\" />
+    <Folder Include="src\Google\" />
+    <Folder Include="src\Google\Auth\" />
+    <Folder Include="src\Google\Cache\" />
+    <Folder Include="src\Google\Http\" />
+    <Folder Include="src\Google\IO\" />
+    <Folder Include="src\Google\Logger\" />
+    <Folder Include="src\Google\Service\" />
+    <Folder Include="src\Google\Signer\" />
+    <Folder Include="src\Google\Task\" />
+    <Folder Include="src\Google\Utils\" />
+    <Folder Include="src\Google\Verifier\" />
+    <Folder Include="style\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Contacts-d260eb0b1145.p12" />
+    <Content Include="huron-county\Contacts-d260eb0b1145.p12" />
+    <Content Include="pacc\GoogleApis-1f272bcc620a.p12" />
+    <Content Include="tec\app.js" />
+    <Content Include="tec\clilent_id.json" />
+    <Content Include="src\Google\IO\cacerts.pem" />
+    <Content Include="style\ruleset.xml" />
+    <Content Include="tec\config.ini" />
+    <Content Include="tec\test.html" />
+    <Content Include="tec\test.js" />
+  </ItemGroup>
+</Project>

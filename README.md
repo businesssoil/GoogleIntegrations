@@ -1,19 +1,19 @@
 # GoogleIntegrations
+The code below can be broken down into five sections seen below. Each section represents a customer of Business Soil. 
+
+## Harbor Drug (HarborDrug)
 
 
-## Harbor Drug
-
-
-## AVCI
-
-
-
-## Huron County
+## AVCI (avci)
 
 
 
-## PACC
+## Huron County (huron-county)
 
 
 
-## TEC
+## PACC (pacc)
+
+
+
+## TEC (tec)

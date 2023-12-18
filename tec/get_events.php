@@ -92,7 +92,6 @@ function get_calendars($type) {
         new Calendar("tecmi.coop_l8occeng58c87da69ks46pp0tg@group.calendar.google.com", $colors[0], "union_vacation"),
         new Calendar("tecmi.coop_v564ro79c25fiivdpl4kutclf4@group.calendar.google.com", $colors[1], "union_vacation"),
         new Calendar("tecmi.coop_q3aeku1i2gauhtnm7eeov8pp9o@group.calendar.google.com", $colors[2], "union_vacation"),
-        new Calendar("tecmi.coop_qr57oluj85nvetpp0gdogf0e54@group.calendar.google.com", $colors[3], "union_vacation"),
 
         new Calendar("tecmi.coop_l8occeng58c87da69ks46pp0tg@group.calendar.google.com", $colors[0], "union_vacation_um"),
         new Calendar("tecmi.coop_v564ro79c25fiivdpl4kutclf4@group.calendar.google.com", $colors[1], "union_vacation_um"),

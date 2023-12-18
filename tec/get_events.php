@@ -78,6 +78,7 @@ function get_calendars($type) {
         new Calendar("tecmi.coop_0q3uq81r6125dnunrcdnsafaso@group.calendar.google.com", $colors[5], "vacation"),
         new Calendar("tecmi.coop_rtos48rjrdljjoi0rsp5b6rncs@group.calendar.google.com", $colors[6], "vacation"),
         new Calendar("tecmi.coop_6obhu9ql98ero80ubmdtr8em7o@group.calendar.google.com", $colors[7], "vacation"),
+        new Calendar("c_fe2288362dd7ee8b4fe6437fb025bdde86eba42d0a9b5bb8b810a685b8624995@group.calendar.google.com", $colors[8], "vacation"),
 
         new Calendar("tecmi.coop_5dpcqgtbij9380vmjkdger5908@group.calendar.google.com", $colors[2], "remember"),
         new Calendar("tecmi.coop_m4fmstmeu8ernk2h6e28htdnqg@group.calendar.google.com", $colors[0], "remember"),
